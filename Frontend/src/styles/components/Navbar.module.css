@@ -1,0 +1,29 @@
+.nav {
+    height: 5rem;
+    padding: 0rem 8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #262626;
+    color: white;
+}
+
+.title {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav_items_list {
+    display: flex;
+    list-style: none;
+
+    gap: 5rem;
+}
+
+.nav_item {
+    cursor: pointer;
+    
+    
+}
