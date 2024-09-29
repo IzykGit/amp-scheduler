@@ -2,7 +2,7 @@ import React from 'react'
 
 import HomeStyles from '../styles/Home.module.css'
 
-import Navbar from '../components/logged-in/Navbar'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
     return (
@@ -14,7 +14,7 @@ const Home = () => {
             <section className={HomeStyles.fold}>
 
                 <div className={HomeStyles.fold_text}>
-                    <h1 className={HomeStyles.fold_slogan}>We Make Scheduling Easy</h1>
+                    <h1 className={HomeStyles.fold_slogan}>Making Scheduling Easy</h1>
 
                     <ul className={HomeStyles.fold_list}>
                         <li>Create Schedules</li>
